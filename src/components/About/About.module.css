@@ -1,0 +1,31 @@
+.about
+{
+    padding: 160px 0;
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+.aboutImg
+{
+    display: block;
+    width: 300px;
+    border-radius: 50%;
+    border: 2px solid #646cff;
+    cursor: pointer;
+}
+
+.aboutText
+{
+    font-size: 3.5rem;
+    line-height: 5rem;
+}
+
+span
+{
+    color: #646cff;
+    background: linear-gradient(to right, #646cff, #989df7);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
